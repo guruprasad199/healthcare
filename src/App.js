@@ -10,7 +10,7 @@ import Login from "./Components/Login";
 function App() {
   return (
     <div className="App">
-      <Router basename="/health-care">
+      <Router>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/legal" element={<Legal />} />
